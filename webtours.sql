@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-02-2018 a las 13:26:19
+-- Tiempo de generación: 10-02-2018 a las 16:41:52
 -- Versión del servidor: 10.1.29-MariaDB
 -- Versión de PHP: 7.2.0
 
@@ -35,7 +35,7 @@ CREATE TABLE `reservas` (
   `descripcion` text,
   `fechaInicio` date DEFAULT NULL,
   `fechaFinal` date DEFAULT NULL,
-  `foto` longblob
+  `foto` varchar(25) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
